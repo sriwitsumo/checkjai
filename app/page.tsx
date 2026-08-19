@@ -52,7 +52,7 @@ const quizCards = [
   {
     id: "kememe",
     title: "เคะหรือเมะ?",
-    subtitle: "ทดสอบ position ในความสัมพันธ์ของเรา",
+    subtitle: "ไม่ต้องมีแฟนก็ทำได้! วัด position ในความสัมพันธ์",
     emoji: "⚔️",
     bg: "linear-gradient(135deg, #e880c0 0%, #c850a0 100%)",
     shadow: "0 8px 32px rgba(200,80,160,0.35)",
