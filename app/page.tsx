@@ -40,6 +40,24 @@ const quizCards = [
     shadow: "0 8px 32px rgba(78,205,196,0.35)",
     questions: 8,
   },
+  {
+    id: "his-style",
+    title: "เขาเป็นคนยังไงในความสัมพันธ์?",
+    subtitle: "วิเคราะห์ attachment style ของเขา",
+    emoji: "🔍",
+    bg: "linear-gradient(135deg, #f0a080 0%, #e67e5a 100%)",
+    shadow: "0 8px 32px rgba(230,126,90,0.35)",
+    questions: 8,
+  },
+  {
+    id: "kememe",
+    title: "เคะหรือเมะ?",
+    subtitle: "ทดสอบ position ในความสัมพันธ์ของเรา",
+    emoji: "⚔️",
+    bg: "linear-gradient(135deg, #e880c0 0%, #c850a0 100%)",
+    shadow: "0 8px 32px rgba(200,80,160,0.35)",
+    questions: 8,
+  },
 ];
 
 function Particle({ style, emoji }: { style: React.CSSProperties; emoji: string }) {
